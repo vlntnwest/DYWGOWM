@@ -5,7 +5,7 @@ function nextPage() {
   function moveButton() {
     var x =
       Math.floor(Math.random() *
-      (window.innerWidth - document.getElementById("noButton").offsetWidth));
+      (window.innerWidth - document.getElementById("noButton").offsetWidth - 150));
     var y =
       Math.floor(Math.random() *
       (window.innerHeight -
