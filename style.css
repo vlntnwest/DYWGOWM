@@ -33,8 +33,6 @@ header {
   transition: 0.3s;
   display: inline-block;
   cursor: pointer;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
 }
 .btn:hover {
   background: whitesmoke;
