@@ -16,3 +16,6 @@ header {
   justify-content: center;
   flex-direction: column;
 }
+h1 {
+  margin-bottom: 60px;
+}
