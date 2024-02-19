@@ -42,7 +42,10 @@ header {
   position: absolute;
   margin-left: 150px;
 }
-
+#noButton:hover {
+  background: #ffb6c1;
+  color: whitesmoke;
+}
 #yesButton {
   position: absolute;
   margin-right: 150px;
