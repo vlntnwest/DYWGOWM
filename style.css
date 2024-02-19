@@ -34,6 +34,8 @@ header {
   display: inline-block;
   cursor: pointer;
 }
+p {
+}
 .btn:hover {
   background: whitesmoke;
   color: #ffb6c1;
@@ -41,11 +43,21 @@ header {
 #noButton {
   position: absolute;
   margin-left: 150px;
-}
-#noButton:hover {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
   background: #ffb6c1;
   color: whitesmoke;
+  transition: 0.3s;
+  display: inline-block;
+  cursor: pointer;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 #yesButton {
   position: absolute;
   margin-right: 150px;
