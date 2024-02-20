@@ -8,6 +8,7 @@ body {
   background: #f8c8dc;
   text-align: center;
   color: whitesmoke;
+  overflow: hidden;
 }
 header {
   height: 100vh;
