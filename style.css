@@ -48,16 +48,19 @@ img {
   font-weight: normal;
   font-size: 1rem;
 }
-.btn:hover {
-  background: whitesmoke;
-  color: #ffb6c1;
-}
+
 #noButton {
   position: absolute;
   margin-left: 150px;
+  user-select: none;
 }
 
 #yesButton {
   position: absolute;
   margin-right: 150px;
+}
+
+#yesButton:hover {
+  background: whitesmoke;
+  color: #ffb6c1;
 }
